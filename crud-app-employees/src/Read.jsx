@@ -8,7 +8,7 @@ function Read() {
   const [Data, setdata] = useState([]);
 
   useEffect(() => {
-    axios.get('http://localhost:3000/users/' + id)
+    axios.get('https://crud-app-vcpj.onrender.com/users/' + id)
       .then(res => setdata(res.data))
       .catch(err => console.log(err));
   }, []);

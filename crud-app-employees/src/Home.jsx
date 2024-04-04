@@ -10,22 +10,10 @@ function Home() {
   const navigate = useNavigate();
 
   useEffect(() => {
-    axios.get('http://localhost:3000/users')
+    axios.get('https://crud-app-vcpj.onrender.com/users')
       .then(res => setData(res.data))
       .catch(err => console.log(err));
   }, []);
-
-  // function handleDelete(id) {
-  //   const confirm = window.confirm("Do you like to Delete?");
-  //   if(confirm) {
-  //     axios.delete('http://localhost:3000/users/'+id)
-  //       .then(res => {
-  //         alert("Record Deleted");
-  //         window.location.reload();
-  //       });
-  //   }
-  // }
-
 
   const [show, setShow] = useState(false);
   const [idToDelete, setIdToDelete] = useState(null);
@@ -37,7 +25,7 @@ function Home() {
   };
 
   const handleDelete = () => {
-    axios.delete('http://localhost:3000/users/' + idToDelete)
+    axios.delete('https://crud-app-vcpj.onrender.com/users/' + idToDelete)
       .then(res => {
         window.location.reload();
       });

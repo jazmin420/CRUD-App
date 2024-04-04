@@ -11,7 +11,7 @@ function Update() {
   });
 
   useEffect(() => {
-    axios.get('http://localhost:3000/users/' + id)
+    axios.get('https://crud-app-vcpj.onrender.com/users/' + id)
       .then(res => {
         setValues({ ...values, name: res.data.name, email: res.data.email, phone: res.data.phone, position: res.data.position});
       })
@@ -22,7 +22,7 @@ function Update() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    axios.put('http://localhost:3000/users/' + id, values)
+    axios.put('https://crud-app-vcpj.onrender.com/users/' + id, values)
       .then(res => {
         navigate('/');
       })
