@@ -1,0 +1,46 @@
+{
+  "users": [
+    {
+      "id": "9e01",
+      "name": "Alex",
+      "email": "alex@gmail.com",
+      "phone": "5434231267",
+      "position": "Full stack developer"
+    },
+    {
+      "id": "1e7b",
+      "name": "Jazmin",
+      "email": "jaz@gmail.com",
+      "phone": "9988776655",
+      "position": "Backend Developer"
+    },
+    {
+      "id": "34c3",
+      "name": "Aleena",
+      "email": "alen@gmail.com",
+      "phone": "999954321",
+      "position": "Graphic Designer"
+    },
+    {
+      "id": "5c45",
+      "name": "Jeremy",
+      "email": "jeremy123@gmail.com",
+      "phone": "6789005544",
+      "position": "Python Developer"
+    },
+    {
+      "id": "a765",
+      "name": "Sona",
+      "email": "sona34@gmail.com",
+      "phone": "5645342222",
+      "position": "Data Analyst"
+    },
+    {
+      "id": "fb3b",
+      "name": "Charlie",
+      "email": "charlie@gmail.com",
+      "phone": "9945342300",
+      "position": "Project Manager"
+    }
+  ]
+}
